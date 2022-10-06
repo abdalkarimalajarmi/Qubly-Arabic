@@ -1,0 +1,400 @@
+@font-face {
+  font-family: metro;
+  src: url(../fonts/Metrophobic-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl !important;
+  text-align: start;
+}
+:root {
+  --maincolor: #722ed1;
+  --secondary-color: #160637;
+  --black: #000;
+  --white: #fff;
+}
+body {
+  font-family: metro;
+}
+.header-section1 {
+  background-image: url(../img/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Header styling*/
+.header {
+  color: var(--black);
+}
+.resp-navbar:focus {
+  box-shadow: none;
+}
+.header .nav-item .nav-link:hover,
+.header .nav-item .nav-link:active {
+  color: var(--maincolor);
+}
+.btn.btn-outline-dark.getStarted {
+  color: var(--maincolor);
+  border: 1px solid var(--maincolor);
+  border-radius: 2rem;
+}
+.btn.btn-outline-dark.getStarted:hover {
+  background-color: var(--maincolor);
+  color: var(--white);
+  transition: 1s;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+/*Section 1 styling */
+.section1 {
+  padding-bottom: 10rem;
+}
+.releasing {
+  background-color: #f9f0ff;
+  border-radius: 1.3rem;
+  color: var(--maincolor);
+  width: 37%;
+}
+.releasing a {
+  color: var(--maincolor);
+}
+.section1 .title {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.section1 .info {
+  font-size: 3rem;
+  padding: 0.5rem 0;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.section1 .start-trial {
+  background-color: var(--maincolor);
+  color: var(--white);
+  border-radius: 2rem;
+  border: 1px solid var(--maincolor);
+}
+.section1 .start-trial:hover {
+  background-color: #f9f0ff;
+  color: var(--maincolor);
+  transition: 1s;
+  border: 1px solid #f9f0ff;
+}
+.section1 .learn-more {
+  background-color: var(--white);
+  color: var(--secondary-color);
+  border-radius: 2rem;
+  border: 1px solid var(--white);
+}
+.section1 .learn-more:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  transition: 1s;
+}
+/*Section 2 styling*/
+.section2 {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+.section2 .why-qubly {
+  text-align: center;
+  color: var(--maincolor);
+  background-color: #f9f0ff;
+  border-radius: 1.3rem;
+  width: 7%;
+  margin: auto;
+}
+.section2 .intro {
+  text-align: center;
+}
+.section2 .intro .title {
+  font-size: 2.3rem;
+  font-family: metro;
+  text-align: center;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.section2 .intro .details {
+  font-size: 1rem;
+  font-family: metro;
+  font-weight: 500;
+  color: gray;
+  width: 50%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.section2 .boxes {
+  width: 65%;
+  margin: auto;
+  padding: 0;
+  justify-content: space-between;
+}
+.section2 .boxes .box {
+  border: none;
+}
+/*secction3 styling*/
+.section3 {
+  padding-bottom: 7rem;
+}
+.section3 .content {
+  align-items: center;
+}
+.section3 .product-team {
+  background-color: #f9f0ff;
+  border-radius: 1.3rem;
+  color: var(--maincolor);
+  width: 23%;
+}
+.section3 .title {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 3rem 0;
+}
+.section3 .info {
+  font-size: 3rem;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*section4 styling*/
+.section4 {
+  padding-bottom: 10rem;
+}
+.section4 .content {
+  align-items: center;
+}
+.section4 .product-team {
+  background-color: #f9f0ff;
+  border-radius: 1.3rem;
+  color: var(--maincolor);
+  width: 23%;
+}
+.section4 .title {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 3rem 0;
+}
+.section4 .info {
+  font-size: 3rem;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*Section5 styling*/
+.section5 {
+  background: url(../img/background-companies.png) no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+.section5 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5 .quote {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+  width: 42%;
+  padding-top: 10rem;
+}
+.section5 .person-name {
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: bold;
+}
+.section5 .person-company {
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: bold;
+}
+.section5 .content .companies {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.section5 .next-icon,
+.section5 .previous-icon {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--white);
+}
+.section5 .indicators [data-bs-target] {
+  background-color: var(--secondary-color);
+}
+.section5 .indicators {
+  bottom: -6rem;
+}
+/*Section 6 Styling*/
+.section6 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.section6 .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section6 .companies {
+  width: 30%;
+}
+.section6 .content .seeWhy {
+  font-size: 2.3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  width: 100%;
+}
+.section6 .content .inBetween {
+  display: flex;
+  align-content: center;
+}
+.section6 .content .inBetween hr {
+  width: 35%;
+}
+.section6 .content .inBetween .trusted {
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+.section6 .content .company-logos {
+  display: grid;
+  width: 90%;
+  gap: 3rem;
+  justify-content: space-around;
+  grid-template-areas:
+    "accenture react"
+    "airbnb sky";
+  align-items: center;
+  align-content: center;
+}
+.section6 .content .company-logos .accenture {
+  grid-area: accenture;
+}
+.section6 .content .company-logos .react {
+  grid-area: react;
+}
+.section6 .content .company-logos .airbnb {
+  grid-area: airbnb;
+}
+.section6 .content .company-logos .sky {
+  grid-area: sky;
+}
+.section6 .form {
+  width: 30%;
+  background-color: var(--white);
+  box-shadow: 0px 80px 0px 39px #f9f0ff;
+}
+.section6 .form .my-form {
+  width: 100%;
+  box-shadow: 0px 0px 16px 8px lightgrey;
+  margin: auto;
+  border-radius: 2px;
+  padding: 1rem;
+}
+.section6 .form .my-form h1 {
+  text-align: center;
+}
+.section6 .form .my-form input,
+.section6 .form .my-form button {
+  width: 100%;
+  border: 1px solid #8989a2;
+  outline: none;
+  border-radius: 4px;
+}
+.section6 .form .my-form input:focus {
+  box-shadow: 0px 0px 2px 2px var(--maincolor);
+  transition: 1s;
+}
+.section6 .form .my-form .form-btn {
+  border: 1px solid var(--maincolor);
+  background-color: var(--maincolor);
+  color: var(--white);
+  width: 100%;
+}
+.section6 .form .my-form .form-btn:hover {
+  background-color: var(--white);
+  color: var(--maincolor);
+  transition: 1s;
+}
+.section6 .form .my-form .or {
+  text-align: center;
+}
+.section6 .form .my-form a {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.section6 .form .my-form hr {
+  width: 80%;
+  border: 1px solid #8989a2;
+  margin: auto;
+}
+.section6 .form .my-form .already-haveAcc {
+  text-align: center;
+}
+.section6 .form .my-form .already-haveAcc span {
+  color: #8989a2;
+}
+/*Footer Styling*/
+footer {
+  padding-top: 10rem;
+}
+footer .footer-content {
+  width: 100%;
+  color: var(--secondary-color);
+}
+footer .footer-content p a {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+footer .footer-content h6 {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+footer .footer-content input {
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px 1px #8989a2;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+footer .footer-content i {
+  position: relative;
+  top: -2rem;
+  left: -9rem;
+}
+footer .author {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: bold;
+}
+/*Faqs styling page*/
+.accordion-button:not(.collapsed) {
+  color: var(--white);
+  background-color: var(--maincolor);
+  box-shadow: 0px 0px 2px 2px var(--secondary-color);
+}
+.accordion-button {
+  color: var(--white);
+  background-color: var(--maincolor);
+  box-shadow: 0px 0px 2px 2px var(--secondary-color);
+}
+.accordion-button:focus {
+  color: var(--white);
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 2px 2px var(--maincolor);
+}
+/*Privacy Policy styling page*/
